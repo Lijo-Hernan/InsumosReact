@@ -1,23 +1,21 @@
 import React from "react";
 import './header.css'
-import logo from './assets/logo.jpg'
 import CartWidget from "../cartWidget/CartWidget";
+
 
 
 const Header = () => {
     return (
-        <header>
-            <div className="header">
-                <img src={logo} alt="logo ecomerce" className="header__img" />
+        <header className="header">
+                <img src="./src/assets/logo.jpg" alt="logo Ecomerce" className="header__img" />
                     <h1 className="header__title">Insumos react</h1>
                     <CartWidget className="carrito"/>
                     <ul className="header__list">
-                        <li><button href="#" >Inicio</button></li>
-                        <li><button href="#" >Conectores</button></li>
-                        <li><button href="#" >Contrastes</button></li>
-                        <li><button href="#" >Descartables</button></li>
+                        <li><a href="#" className="boton">Inicio</a></li>
+                        <li><a href="#" className="boton">Conectores</a></li>
+                        <li><a href="#" className="boton">Contrastes</a></li>
+                        <li><a href="#" className="boton">Descartables</a></li>
                     </ul>
-                </div>
         </header>
     )
 }

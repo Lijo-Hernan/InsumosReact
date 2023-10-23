@@ -14,10 +14,10 @@
 
 .header__img {
     justify-self: center;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-left: 5px;
     grid-area: img;
 }
@@ -45,4 +45,23 @@
     overflow: hidden;
     margin: 0%;
     grid-area: nav;
+}
+
+a {
+    list-style: none;
+}
+
+.boton {
+    padding: 1.5rem;
+    font-weight: 500;
+    font-family: inherit;
+    text-decoration:none;
+    background-color: #3b3b3b;
+    transition: background-color .30s;
+    color: white;
+    border-radius: 50%;
+}
+.boton:hover {
+    background-color: #c5c5c5;
+    color: black;
 }
