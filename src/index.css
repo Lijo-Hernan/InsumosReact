@@ -24,25 +24,6 @@ h1 {
   line-height: 1.1;
 }
 
-/* .boton {
-  border-radius: 15px;
-  border: 1px solid transparent;
-  padding: 2em 1.5em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #3b3b3b;
-  cursor: pointer;
-  transition: border-color 0.25s;
-  color: white;
-  border: red solid;
-}
-.boton:hover {
-  border-color: #646cff;
-  background-color: #c5c5c5;
-  color: black;
-} */
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

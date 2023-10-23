@@ -1,17 +1,17 @@
 .cartWidget {
     display: flex;
-    width: 25vh;
-    height: 10vh;
-    justify-content: center;
-    align-self: center;
-    grid-area: cart;
+    width: 15vh;
     gap: 1vh;
+    align-content: last baseline;
+    padding: 0;
 }
 
 .cartWidget__img {
-    width: 40%;
+    width: 50%;
+    height: 50%;
+    align-self: center;
 }
 .cartWidget__p {
     align-self: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
