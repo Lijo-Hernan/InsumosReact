@@ -1,0 +1,17 @@
+.cartWidget {
+    display: flex;
+    width: 25vh;
+    height: 10vh;
+    justify-content: center;
+    align-self: center;
+    grid-area: cart;
+    gap: 1vh;
+}
+
+.cartWidget__img {
+    width: 40%;
+}
+.cartWidget__p {
+    align-self: center;
+    font-size: 3rem;
+}
