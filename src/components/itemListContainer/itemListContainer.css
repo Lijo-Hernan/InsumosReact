@@ -1,6 +1,21 @@
 .container {
     display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 100%;
+    align-items: center;
     justify-content: center;
     padding-top: 3vh;
+}
+
+.container__intro {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.container__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 15px;
+    width: 98%;
 }

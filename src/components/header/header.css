@@ -15,9 +15,8 @@
 
 .header__img {
     justify-self: center;
-    height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 25px;
     margin-left: 5px;
     grid-area: img;
@@ -28,4 +27,5 @@
     justify-self: center;
     font-style: italic;
     grid-area: title;
+    font-size: 4rem;
 }

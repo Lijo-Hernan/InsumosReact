@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "nombre":"contraste oral",
+        "marca":"a",
+        "descripcion":"descp",
+        "precio":"100",
+        "stock":"0"
+    },
+    {
+        "id": "2",
+        "nombre":"Contraste Endovenoso ",
+        "marca":"b",
+        "descripcion":"descp",
+        "precio":"100",
+        "stock":"1"
+    },
+    {
+        "id": "3",
+        "nombre":"Llave de 3 vias",
+        "marca":"c",
+        "descripcion":"descp",
+        "precio":"100",
+        "stock":"50"
+    },
+    {
+        "id": "4",
+        "nombre":"Coil para bomba",
+        "marca":"d",
+        "descripcion":"descp",
+        "precio":"100",
+        "stock":"50"
+    },
+    {
+        "id": "5",
+        "nombre":"Jeringa prellenada",
+        "marca":"e",
+        "descripcion":"descp",
+        "precio":"100",
+        "stock":"50"
+    },
+    {
+        "id": "6",
+        "nombre":"jeringas",
+        "marca":"f",
+        "descripcion":"descp",
+        "precio":"100",
+        "stock":"50"
+    }
+]
