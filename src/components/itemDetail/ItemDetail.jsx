@@ -13,8 +13,10 @@ const ItemDetail = ({prod}) => {
             {(prod.stock) == 0 ? <img src="../public/data/sin_stock.gif" alt="Sin Stock" className='sinStock'/> 
             : ''}
             <h2 className='item__titulo'>{prod.nombre}</h2>
-                <img src="../public/data/tresVias.png" alt="IMAGEN" className='item__img'/>
-            <p className='item__p'>$ {prod.precio}</p>
+                <img src={prod.imagen} alt="IMAGEN" className='item__img'/>
+            <h2 className='item__titulo'>$ {prod.precio}</h2>
+            <h3 className='item__p'>{prod.marca}</h3>
+            <p className='item__p'>{prod.descripcion}</p>
                 {(prod.stock) > 1 ? <p className='item__p'>{prod.stock} unidades disponibles</p> 
                 : <p className='item__p'>{prod.stock} unidad disponible</p>}
                 <ItemCount initial={1} stock={prod.stock} onAdd={onAdd} />

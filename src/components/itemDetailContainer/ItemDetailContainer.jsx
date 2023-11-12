@@ -1,11 +1,15 @@
 import React, {useState,useEffect} from 'react';
+import { useParams } from 'react-router-dom';
 import ItemDetail from '../itemDetail/ItemDetail';
+import Error from '../error/Error';
 
 
 
-const ItemDetailContainer = ({idProducto}) => {
+const ItemDetailContainer = () => {
 
     const [prod, setProd]= useState (null); 
+
+    const {idProducto} = useParams()
 
     useEffect (()=> {
 
@@ -25,7 +29,7 @@ const ItemDetailContainer = ({idProducto}) => {
         <div className='detailContainer'>
             <section className='detailContainer__card'>
                 {prod ? <ItemDetail prod={prod}/> 
-                : <h3>Buscando...</h3>}
+                : <Error/>}
             </section>
         </div>
     );

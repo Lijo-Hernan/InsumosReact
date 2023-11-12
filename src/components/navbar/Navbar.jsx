@@ -1,15 +1,33 @@
 import React from 'react';
 import './navbar.css'
 import CartWidget from "../cartWidget/CartWidget";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+    const enlaces = [
+        "Contrastes",
+        "Descartables",
+        "Consumibles"
+    ]
+
+
     return (
         <nav className='navbar'>
             <ul className="navbar__list">
-                <li><a href="#" className="boton">Inicio</a></li>
-                <li><a href="#" className="boton">Conectores</a></li>
-                <li><a href="#" className="boton">Contrastes</a></li>
-                <li><a href="#" className="boton">Descartables</a></li>
+
+                {/* {enlaces.map((e,id) => 
+                    <li key={id}>
+                        <a href={`${e}`} className='boton'>
+                        {e}
+                        </a>
+                    </li>
+                )} */}
+
+                <li><a href="/Contrastes" className='boton'>Contrastes</a></li>
+                <li><a href="/Descartables" className='boton'>Descartables</a></li>
+                <li><a href="/Consumibles" className='boton'>Consumibles</a></li>
+
             </ul>
             <CartWidget className="carrito"/>
         </nav>
