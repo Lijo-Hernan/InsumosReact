@@ -1,8 +1,8 @@
 import React from 'react';
-import './navbar.css'
+import './navBar.css'
 import CartWidget from "../cartWidget/CartWidget";
 
-const Navbar = () => {
+const NavBar = () => {
 
     const enlaces = [
         "Contrastes",
@@ -33,4 +33,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavBar;
