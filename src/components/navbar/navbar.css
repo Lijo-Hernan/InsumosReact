@@ -30,7 +30,7 @@ a {
     background-color: #3b3b3b;
     transition: background-color .30s;
     color: white;
-    border-radius: 40%;
+    border-radius: 50%;
 }
 .boton:hover {
     background-color: #c5c5c5;
