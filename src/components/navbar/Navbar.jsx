@@ -2,7 +2,7 @@ import React from 'react';
 import './navBar.css'
 import CartWidget from "../cartWidget/CartWidget";
 
-const NavBar = () => {
+const Navbar = () => {
 
     const enlaces = [
         "Contrastes",
